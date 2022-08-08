@@ -165,4 +165,11 @@ ex) ChangeShippingInfo() → setShippingInfo()
     
     ```
     
-    ### 1.7 도메인 용어와 유비쿼터스 언어
+   
+   ### 1.7 도메인 용어와 유비쿼터스 언어
+
+코드를 작성할때 개발자에게 코드의 의미를 확실하게 해주기 위해서 유비쿼터스 언어를 사용해야한다.
+
+EX) STEP1, STEP2, STEP3 → X                PAYMENT_WAITING,PREPARING,SHIPPED → 0
+
+유비쿼터스 언어를 사용하여 보다 더 직관적이고, 용어의 모호함을 줄일 수 있다.
